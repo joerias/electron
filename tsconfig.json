@@ -10,6 +10,10 @@
 	],
 	"include": ["src/**/*", "src/global.d.ts"],
 	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@": ["src"]
+		},
 		"types": ["element-plus/global"]
 	}
 }
